@@ -2,31 +2,33 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     margin: 0;
-    background-image: linear-gradient(to bottom right, white, rgba(63, 63, 206, 0.651) );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, white, rgba(40, 180, 168, 0.568) );
     height: 100vh;
     /* justify-content: center; */
 }
 
 .result {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    /* background-color: brown; */
-}
-
-.placeholder {
     width: 400px;
     height: 500px;
-    margin-top: 150px;
+    margin-top: 130px;
+    margin: 20px;
     background-color: white;
     border-radius: 5px;
     display: flex;
     align-content: center;
     align-items: center;
-    /* justify-items: center; */
     justify-content: center;
+}
+
+.result img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .button {
@@ -34,7 +36,6 @@ body {
     align-content: center;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(42, 165, 63); */
 }
 
 .btn {
@@ -48,7 +49,6 @@ body {
     font-size: 20px;
     align-content: center;
     align-items: center;
-    /* justify-items: center; */
     justify-content: center;
     cursor: pointer;
 }
